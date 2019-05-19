@@ -1,0 +1,830 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var gaProperty = 'UA-3977703-3';
+var disableStr = 'ga-disable-' + gaProperty;
+if (document.cookie.indexOf(disableStr + '=true') > -1) {
+window[disableStr] = true;
+}
+function gaOptout() {
+document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+window[disableStr] = true; 
+alert('Google Analytics Tracking ist nun deaktiviert'); 
+}
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-3977703-3', 'auto');
+ga('set', 'anonymizeIp', true);
+ga('send', 'pageview');
+</script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="SHORTCUT ICON" href="https://www.goethe-verlag.com/favicon.ico"/>
+<link rel="stylesheet" href="/flags-small.css">
+<link rel="alternate" hreflang="ru-ad" href="https://www.goethe-verlag.com/book2/AD/ADJA/ADJA003.HTM" />
+<link rel="alternate" hreflang="af" href="https://www.goethe-verlag.com/book2/AF/AFJA/AFJA003.HTM" />
+<link rel="alternate" hreflang="am" href="https://www.goethe-verlag.com/book2/AM/AMJA/AMJA003.HTM" />
+<link rel="alternate" hreflang="ar" href="https://www.goethe-verlag.com/book2/AR/ARJA/ARJA003.HTM" />
+<link rel="alternate" hreflang="be" href="https://www.goethe-verlag.com/book2/BE/BEJA/BEJA003.HTM" />
+<link rel="alternate" hreflang="bg" href="https://www.goethe-verlag.com/book2/BG/BGJA/BGJA003.HTM" />
+<link rel="alternate" hreflang="bn" href="https://www.goethe-verlag.com/book2/BN/BNJA/BNJA003.HTM" />
+<link rel="alternate" hreflang="bs" href="https://www.goethe-verlag.com/book2/BS/BSJA/BSJA003.HTM" />
+<link rel="alternate" hreflang="ca" href="https://www.goethe-verlag.com/book2/CA/CAJA/CAJA003.HTM" />
+<link rel="alternate" hreflang="cs" href="https://www.goethe-verlag.com/book2/CS/CSJA/CSJA003.HTM" />
+<link rel="alternate" hreflang="da" href="https://www.goethe-verlag.com/book2/DA/DAJA/DAJA003.HTM" />
+<link rel="alternate" hreflang="de" href="https://www.goethe-verlag.com/book2/DE/DEJA/DEJA003.HTM" />
+<link rel="alternate" hreflang="el" href="https://www.goethe-verlag.com/book2/EL/ELJA/ELJA003.HTM" />
+<link rel="alternate" hreflang="en-us" href="https://www.goethe-verlag.com/book2/EM/EMJA/EMJA003.HTM" />
+<link rel="alternate" hreflang="en" href="https://www.goethe-verlag.com/book2/EN/ENJA/ENJA003.HTM" />
+<link rel="alternate" hreflang="eo" href="https://www.goethe-verlag.com/book2/EO/EOJA/EOJA003.HTM" />
+<link rel="alternate" hreflang="es" href="https://www.goethe-verlag.com/book2/ES/ESJA/ESJA003.HTM" />
+<link rel="alternate" hreflang="et" href="https://www.goethe-verlag.com/book2/ET/ETJA/ETJA003.HTM" />
+<link rel="alternate" hreflang="fa" href="https://www.goethe-verlag.com/book2/FA/FAJA/FAJA003.HTM" />
+<link rel="alternate" hreflang="fi" href="https://www.goethe-verlag.com/book2/FI/FIJA/FIJA003.HTM" />
+<link rel="alternate" hreflang="fr" href="https://www.goethe-verlag.com/book2/FR/FRJA/FRJA003.HTM" />
+<link rel="alternate" hreflang="he" href="https://www.goethe-verlag.com/book2/HE/HEJA/HEJA003.HTM" />
+<link rel="alternate" hreflang="hi" href="https://www.goethe-verlag.com/book2/HI/HIJA/HIJA003.HTM" />
+<link rel="alternate" hreflang="hr" href="https://www.goethe-verlag.com/book2/HR/HRJA/HRJA003.HTM" />
+<link rel="alternate" hreflang="hu" href="https://www.goethe-verlag.com/book2/HU/HUJA/HUJA003.HTM" />
+<link rel="alternate" hreflang="id" href="https://www.goethe-verlag.com/book2/ID/IDJA/IDJA003.HTM" />
+<link rel="alternate" hreflang="it" href="https://www.goethe-verlag.com/book2/IT/ITJA/ITJA003.HTM" />
+<link rel="alternate" hreflang="ka" href="https://www.goethe-verlag.com/book2/KA/KAJA/KAJA003.HTM" />
+<link rel="alternate" hreflang="kn" href="https://www.goethe-verlag.com/book2/KN/KNJA/KNJA003.HTM" />
+<link rel="alternate" hreflang="ko" href="https://www.goethe-verlag.com/book2/KO/KOJA/KOJA003.HTM" />
+<link rel="alternate" hreflang="lt" href="https://www.goethe-verlag.com/book2/LT/LTJA/LTJA003.HTM" />
+<link rel="alternate" hreflang="lv" href="https://www.goethe-verlag.com/book2/LV/LVJA/LVJA003.HTM" />
+<link rel="alternate" hreflang="mk" href="https://www.goethe-verlag.com/book2/MK/MKJA/MKJA003.HTM" />
+<link rel="alternate" hreflang="mr" href="https://www.goethe-verlag.com/book2/MR/MRJA/MRJA003.HTM" />
+<link rel="alternate" hreflang="nl" href="https://www.goethe-verlag.com/book2/NL/NLJA/NLJA003.HTM" />
+<link rel="alternate" hreflang="nn" href="https://www.goethe-verlag.com/book2/NN/NNJA/NNJA003.HTM" />
+<link rel="alternate" hreflang="no" href="https://www.goethe-verlag.com/book2/NO/NOJA/NOJA003.HTM" />
+<link rel="alternate" hreflang="pa" href="https://www.goethe-verlag.com/book2/PA/PAJA/PAJA003.HTM" />
+<link rel="alternate" hreflang="pl" href="https://www.goethe-verlag.com/book2/PL/PLJA/PLJA003.HTM" />
+<link rel="alternate" hreflang="pt" href="https://www.goethe-verlag.com/book2/PT/PTJA/PTJA003.HTM" />
+<link rel="alternate" hreflang="pt-br" href="https://www.goethe-verlag.com/book2/PX/PXJA/PXJA003.HTM" />
+<link rel="alternate" hreflang="ro" href="https://www.goethe-verlag.com/book2/RO/ROJA/ROJA003.HTM" />
+<link rel="alternate" hreflang="ru" href="https://www.goethe-verlag.com/book2/RU/RUJA/RUJA003.HTM" />
+<link rel="alternate" hreflang="sk" href="https://www.goethe-verlag.com/book2/SK/SKJA/SKJA003.HTM" />
+<link rel="alternate" hreflang="sl" href="https://www.goethe-verlag.com/book2/SL/SLJA/SLJA003.HTM" />
+<link rel="alternate" hreflang="sq" href="https://www.goethe-verlag.com/book2/SQ/SQJA/SQJA003.HTM" />
+<link rel="alternate" hreflang="sr" href="https://www.goethe-verlag.com/book2/SR/SRJA/SRJA003.HTM" />
+<link rel="alternate" hreflang="sv" href="https://www.goethe-verlag.com/book2/SV/SVJA/SVJA003.HTM" />
+<link rel="alternate" hreflang="ta" href="https://www.goethe-verlag.com/book2/TA/TAJA/TAJA003.HTM" />
+<link rel="alternate" hreflang="te" href="https://www.goethe-verlag.com/book2/TE/TEJA/TEJA003.HTM" />
+<link rel="alternate" hreflang="th" href="https://www.goethe-verlag.com/book2/TH/THJA/THJA003.HTM" />
+<link rel="alternate" hreflang="ti" href="https://www.goethe-verlag.com/book2/TI/TIJA/TIJA003.HTM" />
+<link rel="alternate" hreflang="tr" href="https://www.goethe-verlag.com/book2/TR/TRJA/TRJA003.HTM" />
+<link rel="alternate" hreflang="uk" href="https://www.goethe-verlag.com/book2/UK/UKJA/UKJA003.HTM" />
+<link rel="alternate" hreflang="ur" href="https://www.goethe-verlag.com/book2/UR/URJA/URJA003.HTM" />
+<link rel="alternate" hreflang="vi" href="https://www.goethe-verlag.com/book2/VI/VIJA/VIJA003.HTM" />
+<link rel="alternate" hreflang="zh" href="https://www.goethe-verlag.com/book2/ZH/ZHJA/ZHJA003.HTM" />
+<script type="text/javascript">
+function tt(sn, hn) {
+var e = document.getElementById(sn);
+var f = document.getElementById(hn);
+if(e.style.display == 'inline') {
+e.style.display = 'none';
+f.style.display = 'inline';
+}
+else {
+e.style.display = 'inline';
+f.style.display = 'none';
+}
+}
+</script>
+<meta name= "keywords" content="&#20013;&#25991;, &#26085;&#35821;, 1[&#19968;], 1 [&#19968;], &#20154;&#31216;, &#20154;&#31216;">
+<meta name= "description" content="50languages &#20013;&#25991; - &#26085;&#35821; &#19987;&#20026;&#21021;&#23398;&#32773;&#31934;&#24515;&#25171;&#36896;, &#21452;&#35821;&#23545;&#29031;&nbsp; | &nbsp;&#20154;&#31216; = &#20154;&#31216;">
+<link rel="shortcut icon" href="https://www.goethe-verlag.com/favicon.ico"/>
+<title>50languages &#20013;&#25991; - &#26085;&#35821; &#19987;&#20026;&#21021;&#23398;&#32773;&#31934;&#24515;&#25171;&#36896;&nbsp; | &nbsp;&#20154;&#31216; = &#20154;&#31216;&nbsp; | &nbsp;
+</title>
+<link href="https://www.goethe-verlag.com/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<style type="text/css">
+A { TEXT-DECORATION: none }
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline; color: red;}
+
+.verlauf {
+background:-moz-linear-gradient(bottom,#f7f7f7,#ffffff); /* Firefox */
+background:-webkit-gradient(linear,left top,left bottom,from(#f7f7f7),to(#ffffff)); /* Chrome, Safari */
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#f7f7f7', endColorstr='#ffffff');/*For IE7-8-9*/ 
+height: 1%;/*For IE7*/ }
+<!--
+.Stil35 {font-family: "'Arial Unicode MS'"; font-size: 16px; text-align: left; margin:2px}
+.Stil36 {font-family: "'Arial Unicode MS'"; font-size: 18px; text-align: left; margin:2px}
+.Stil45 {font-family: "Arial"; font-size: 16px; text-align: left; margin:2px}
+.Stil46 {font-family: "'Arial Unicode MS'"; font-size: 18px; text-align: left; margin:2px}
+.Stil37 {color: #999999}
+.Stil38 {font-family: "'Arial Unicode MS'"; font-size: 9px; color: #555555}
+.Stil39 {font-family: "'Arial Unicode MS'"; font-size: 15px;}
+.Stil40 {font-family: "'Arial Unicode MS'"; font-size: 11px;}
+-->
+
+.table-centered
+{
+margin: 0 auto !important;
+float: none !important;
+}
+
+.flagcontainer { width:100%;margin-top:20px;margin-left:7px;}
+.flag {float:left;text-align:center;font-family: "Verdana"; font-size: 11px; color: #555555;margin-right:4px;padding-bottom:8px;}
+.clearer {clear:both;}
+</style>
+<script type="text/javascript">function FO (Adresse) {
+ mf = window.open(Adresse, "zf", "width=550,height=380,scrollbars=yes");
+mf.focus();
+}
+</script>
+</head>
+<body>
+<div class="container">
+<div class="verlauf">
+<div class="row">
+<div class="col-md-12">
+<table class="span5 table-centered">
+ <tr>
+ <td>
+ </td>
+ </tr>
+</table>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsive1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9240635761824238"
+     data-ad-slot="7018564889"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<hr style="background:#F87431; height:3px" />
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<table class="span5 table-centered">
+ <tr>
+ <td>
+<div class="Stil36">&#22312;&#32447;&#23398;&#20064;&#35821;&#35328;
+</div>
+ </td>
+ </tr>
+ <tr>
+<td>
+<div class="bg-info">
+<a href="ZHJA002.HTM">
+<img src="../../_bilder/zur.gif" alt="previous page"></a>&nbsp;<a href="ZHJA002.HTM">
+<img src="../../_bilder/up.gif" alt="up"> &#30446;&#24405;</a>&nbsp;
+<a href="ZHJA004.HTM">
+<img src="../../_bilder/vor.gif" alt="next page"></a>
+&nbsp;|&nbsp;Free download MP3:&nbsp;
+<a href="https://www.invatalimbi.com/book2/ZH/ZHJA/ZHJA-all.zip">ALL</a>&nbsp;
+<a href="https://www.invatalimbi.com/book2/ZH/ZHJA/ZHJA-010.zip">1-10
+</a> | 
+<a href="ZHJA___.HTM" target="_blank">&#36141;&#20080;&#27492;&#20070;
+</a>&nbsp;|&nbsp;<a href="https://play.google.com/store/apps/details?id=mobi.steps.fiftylanguages" target="_blank">Free Android app</a>&nbsp;|&nbsp;<a href="https://www.goethe-verlag.com/book2/_ios_app/ZHJA.HTM" target="_blank">Free iPhone app</a>
+</div>
+</td>
+</tr>
+</table>
+<br/>
+<table class="span5 table-centered">
+<tr><td class="Stil39">
+<a href="https://www.goethe-verlag.com/">Home</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;
+<a href="https://www.50languages.com/indexzh.htm">50&#31181;&#35821;&#35328;
+</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;
+<a href="../index.htm">&#20013;&#25991;
+</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;
+<b>&#26085;&#35821;
+</b>&nbsp;&nbsp;&gt;&nbsp;&nbsp;
+<a href="ZHJA002.HTM">&#30446;&#24405;
+</a></td></tr>
+</table><br/>
+</div>
+</div>
+<div>
+<div class="row">
+<div class="col-md-4">
+<table class="span5 table-centered">
+<tr>
+<td><div><br/>
+<span class="Stil36">1[&#19968;]
+</span>
+<br /><br />
+</div></td>
+</tr>
+<tr>
+<td><div>
+<span class="Stil36">
+<b>&#20154;&#31216;
+</b>
+</span>
+</div></td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</div>
+<div class="col-md-4">
+<table class="span5 table-centered">
+<tr><td><div>
+<a href="https://zh.wikipedia.org/wiki/%E6%97%A5%E8%AF%AD" target="_blank">
+<img src="../../_bilder/001.jpg" alt=" ">
+</a>
+<br />
+<a href="https://zh.wikipedia.org/wiki/%E6%97%A5%E8%AF%AD" target="_blank" class="Stil40">&#26085;&#35821; -  Wikipedia
+</a>
+</div></td>
+</tr>
+</table>
+</div>
+<div class="col-md-4">
+<table class="span5 table-centered">
+<tr>
+<td><div><br/>
+<span class="Stil46">1 [&#19968;]
+</span>
+<br /><br />
+</div></td>
+<td>
+<td><button class="px40" onclick="document.getElementById('1').play()">&#x25BA;</button>
+<audio id="1">
+<source src="https://www.book2.nl/book2/JA/SOUND/0001.mp3" type="audio/mpeg" />
+</audio></td>
+</tr>
+<tr>
+<td><div>
+<span class="Stil46">
+<b>&#20154;&#31216;
+</b>
+</span>
+</div></td>
+<td>
+<td><button class="px40" onclick="document.getElementById('2').play()">&#x25BA;</button>
+<audio id="2">
+<source src="https://www.book2.nl/book2/JA/SOUND/0002.mp3" type="audio/mpeg" />
+</audio></td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<table class="span5 table-centered">
+<tr>
+<td><div class="Stil39">
+</div></td>
+<td><div class="Stil39">
+<p>&nbsp;</p>
+<div>
+<table class="span5 table-centered"><tr>
+<td>&nbsp;&#28857;&#20987;&#25991;&#26412;&#65281;&nbsp;<img src="https://www.goethe-verlag.com/book2/_pics/arr.gif" alt="arrow">
+</td>
+<td>
+<div id="sn_0" style="display:inline">
+<a style="cursor:pointer; color: #0000cc;" onclick="tt('sn_1', 'hn_1'),tt('sn_2', 'hn_2'),tt('sn_3', 'hn_3'),tt('sn_4', 'hn_4'),tt('sn_5', 'hn_5'),tt('sn_6', 'hn_6'),tt('sn_7', 'hn_7'),tt('sn_8', 'hn_8'),tt('sn_9', 'hn_9'),tt('sn_10', 'hn_10'),tt('sn_11', 'hn_11'),tt('sn_12', 'hn_12'),tt('sn_13', 'hn_13'),tt('sn_14', 'hn_14'),tt('sn_15', 'hn_15'),tt('sn_16', 'hn_16'),tt('sn_17', 'hn_17'),tt('sn_18', 'hn_18')">&nbsp;&nbsp;&#26174;&#31034;&#21644;&#38544;&#34255;&nbsp;<img src="https://www.goethe-verlag.com/book2/_pics/studylanguages.gif" alt="See solution" ></a></div>
+</td>
+</tr></table>
+</div></div>
+</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>
+<div class="Stil35">
+&#25105;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_1" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_1', 'hn_1')">&#31169;
+</a></div><div id="hn_1" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_1', 'hn_1')">&#31169;
+<div>
+<span style="color: #996633">watashi
+</span>
+</div>
+</a></div>
+</div></td>
+<td>
+<td><button class="px40" onclick="document.getElementById('3').play()">&#x25BA;</button>
+<audio id="3">
+<source src="https://www.book2.nl/book2/JA/SOUND/0003.mp3" type="audio/mpeg" />
+</audio></td>
+</tr>
+<tr><td>
+<div class="Stil35">
+&#25105; &#21644; &#20320;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_2" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_2', 'hn_2')">&#31169; _   _ &#12394; _ 
+</a></div><div id="hn_2" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_2', 'hn_2')">&#31169;&#12392; &#12354;&#12394;&#12383;
+<div>
+<span style="color: #996633">watashi to anata
+</span>
+</div>
+</a></div>
+</div></td>
+<td>
+<td><button class="px40" onclick="document.getElementById('4').play()">&#x25BA;</button>
+<audio id="4">
+<source src="https://www.book2.nl/book2/JA/SOUND/0004.mp3" type="audio/mpeg" />
+</audio></td>
+</tr><tr><td>
+<div class="Stil35">
+&#25105;&#20204; &#20004;&#20154;/&#20457;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_3" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_3', 'hn_3')">&#31169; _ 
+</a></div><div id="hn_3" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_3', 'hn_3')">&#31169;&#36948;
+<div>
+<span style="color: #996633">watashitachi
+</span>
+</div>
+</a></div>
+</div></td><td>
+<td><button class="px40" onclick="document.getElementById('5').play()">&#x25BA;</button>
+<audio id="5">
+<source src="https://www.book2.nl/book2/JA/SOUND/0005.mp3" type="audio/mpeg" />
+</audio></td>
+</tr>
+<tr>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+</tr>
+<tr><td>
+<div class="Stil35">
+&#20182;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_4" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_4', 'hn_4')">&#24444;
+</a></div><div id="hn_4" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_4', 'hn_4')">&#24444;
+<div>
+<span style="color: #996633">kare
+</span>
+</div>
+</a></div>
+</div></td>
+<td>
+<td><button class="px40" onclick="document.getElementById('6').play()">&#x25BA;</button>
+<audio id="6">
+<source src="https://www.book2.nl/book2/JA/SOUND/0006.mp3" type="audio/mpeg" />
+</audio></td>
+</tr>
+<tr><td>
+<div class="Stil35">
+&#20182; &#21644; &#22905;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_5" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_5', 'hn_5')">&#24444; _   _ &#22899;
+</a></div><div id="hn_5" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_5', 'hn_5')">&#24444;&#12392; &#24444;&#22899;
+<div>
+<span style="color: #996633">kare to kanojo
+</span>
+</div>
+</a></div>
+</div></td>
+<td>
+<td><button class="px40" onclick="document.getElementById('7').play()">&#x25BA;</button>
+<audio id="7">
+<source src="https://www.book2.nl/book2/JA/SOUND/0007.mp3" type="audio/mpeg" />
+</audio></td>
+</tr><tr><td>
+<div class="Stil35">
+&#20182;&#20204; &#20004;&#20154;/&#20457;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_6" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_6', 'hn_6')">&#24444; _ 
+</a></div><div id="hn_6" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_6', 'hn_6')">&#24444;&#12425;
+<div>
+<span style="color: #996633">karera
+</span>
+</div>
+</a></div>
+</div></td><td>
+<td><button class="px40" onclick="document.getElementById('8').play()">&#x25BA;</button>
+<audio id="8">
+<source src="https://www.book2.nl/book2/JA/SOUND/0008.mp3" type="audio/mpeg" />
+</audio></td>
+</tr>
+<tr>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+</tr>
+<tr><td>
+<div class="Stil35">
+&#30007;&#20154;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_7" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_7', 'hn_7')">&#30007; _ 
+</a></div><div id="hn_7" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_7', 'hn_7')">&#30007;&#24615;
+<div>
+<span style="color: #996633">dansei
+</span>
+</div>
+</a></div>
+</div></td>
+<td>
+<td><button class="px40" onclick="document.getElementById('9').play()">&#x25BA;</button>
+<audio id="9">
+<source src="https://www.book2.nl/book2/JA/SOUND/0009.mp3" type="audio/mpeg" />
+</audio></td>
+</tr>
+<tr><td>
+<div class="Stil35">
+&#22899;&#20154;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_8" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_8', 'hn_8')">&#22899; _ 
+</a></div><div id="hn_8" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_8', 'hn_8')">&#22899;&#24615;
+<div>
+<span style="color: #996633">josei
+</span>
+</div>
+</a></div>
+</div></td>
+<td>
+<td><button class="px40" onclick="document.getElementById('10').play()">&#x25BA;</button>
+<audio id="10">
+<source src="https://www.book2.nl/book2/JA/SOUND/0010.mp3" type="audio/mpeg" />
+</audio></td>
+</tr><tr><td>
+<div class="Stil35">
+&#23401;&#23376;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_9" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_9', 'hn_9')">&#23376; _ 
+</a></div><div id="hn_9" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_9', 'hn_9')">&#23376;&#20379;
+<div>
+<span style="color: #996633">kodomo
+</span>
+</div>
+</a></div>
+</div></td><td>
+<td><button class="px40" onclick="document.getElementById('11').play()">&#x25BA;</button>
+<audio id="11">
+<source src="https://www.book2.nl/book2/JA/SOUND/0011.mp3" type="audio/mpeg" />
+</audio></td>
+</tr>
+<tr>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+</tr>
+<tr><td>
+<div class="Stil35">
+&#19968;&#20010; &#23478;&#24237;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_10" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_10', 'hn_10')">&#23478; _ 
+</a></div><div id="hn_10" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_10', 'hn_10')">&#23478;&#26063;
+<div>
+<span style="color: #996633">kazoku
+</span>
+</div>
+</a></div>
+</div></td>
+<td>
+<td><button class="px40" onclick="document.getElementById('12').play()">&#x25BA;</button>
+<audio id="12">
+<source src="https://www.book2.nl/book2/JA/SOUND/0012.mp3" type="audio/mpeg" />
+</audio></td>
+</tr>
+<tr><td>
+<div class="Stil35">
+&#25105;&#30340; &#23478;&#24237; /&#25105;&#30340; &#23478;&#20154;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_11" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_11', 'hn_11')">&#31169; _   _ &#26063;
+</a></div><div id="hn_11" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_11', 'hn_11')">&#31169;&#12398; &#23478;&#26063;
+<div>
+<span style="color: #996633">watashinokazoku
+</span>
+</div>
+</a></div>
+</div></td>
+<td>
+<td><button class="px40" onclick="document.getElementById('13').play()">&#x25BA;</button>
+<audio id="13">
+<source src="https://www.book2.nl/book2/JA/SOUND/0013.mp3" type="audio/mpeg" />
+</audio></td>
+</tr><tr><td>
+<div class="Stil35">
+&#25105;&#30340; &#23478;&#24237; &#22312; &#36825;&#37324; &#12290;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_12" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_12', 'hn_12')">&#31169; _   _ &#26063; _   _ &#12371; _   _ &#12414; _  &#12290;
+</a></div><div id="hn_12" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_12', 'hn_12')">&#31169;&#12398; &#23478;&#26063;&#12399; &#12371;&#12371;&#12395; &#12356;&#12414;&#12377; &#12290;
+<div>
+<span style="color: #996633">watashinokazoku wa koko ni imasu.
+</span>
+</div>
+</a></div>
+</div></td><td>
+<td><button class="px40" onclick="document.getElementById('14').play()">&#x25BA;</button>
+<audio id="14">
+<source src="https://www.book2.nl/book2/JA/SOUND/0014.mp3" type="audio/mpeg" />
+</audio></td>
+</tr>
+<tr>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+</tr>
+<tr><td>
+<div class="Stil35">
+&#25105; &#22312; &#36825;&#37324; &#12290;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_13" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_13', 'hn_13')">&#31169; _   _ &#12371; _   _ &#12414; _  &#12290;
+</a></div><div id="hn_13" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_13', 'hn_13')">&#31169;&#12399; &#12371;&#12371;&#12395; &#12356;&#12414;&#12377; &#12290;
+<div>
+<span style="color: #996633">watashi wa koko ni imasu.
+</span>
+</div>
+</a></div>
+</div></td>
+<td>
+<td><button class="px40" onclick="document.getElementById('15').play()">&#x25BA;</button>
+<audio id="15">
+<source src="https://www.book2.nl/book2/JA/SOUND/0015.mp3" type="audio/mpeg" />
+</audio></td>
+</tr>
+<tr><td>
+<div class="Stil35">
+&#20320; &#22312; &#36825;&#37324; &#12290;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_14" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_14', 'hn_14')">&#12354; _ &#12383; _   _ &#12371; _   _ &#12414; _  &#12290;
+</a></div><div id="hn_14" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_14', 'hn_14')">&#12354;&#12394;&#12383;&#12399; &#12371;&#12371;&#12395; &#12356;&#12414;&#12377; &#12290;
+<div>
+<span style="color: #996633">anata wa koko ni imasu.
+</span>
+</div>
+</a></div>
+</div></td>
+<td>
+<td><button class="px40" onclick="document.getElementById('16').play()">&#x25BA;</button>
+<audio id="16">
+<source src="https://www.book2.nl/book2/JA/SOUND/0016.mp3" type="audio/mpeg" />
+</audio></td>
+</tr><tr><td>
+<div class="Stil35">
+&#20182; &#22312; &#36825;&#37324; &#21644; &#22905; &#22312; &#36825;&#37324; &#12290;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_15" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_15', 'hn_15')">&#24444; _   _ &#12371; _   _ &#12414; _  &#12290;  _ &#12375; _   _ &#22899; _   _ &#12371; _   _ &#12414; _  &#12290;
+</a></div><div id="hn_15" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_15', 'hn_15')">&#24444;&#12399; &#12371;&#12371;&#12395; &#12356;&#12414;&#12377; &#12290; &#12381;&#12375;&#12390; &#24444;&#22899;&#12399; &#12371;&#12371;&#12395; &#12356;&#12414;&#12377; &#12290;
+<div>
+<span style="color: #996633">kare wa koko ni imasu. Soshite kanojo wa koko ni imasu.
+</span>
+</div>
+</a></div>
+</div></td><td>
+<td><button class="px40" onclick="document.getElementById('17').play()">&#x25BA;</button>
+<audio id="17">
+<source src="https://www.book2.nl/book2/JA/SOUND/0017.mp3" type="audio/mpeg" />
+</audio></td>
+</tr>
+<tr>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+</tr>
+<tr><td>
+<div class="Stil35">
+&#25105;&#20204; &#22312; &#36825;&#37324; &#12290;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_16" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_16', 'hn_16')">&#31169; _ &#12399; &#12371; _ &#12395; &#12356; _ &#12377; &#12290;
+</a></div><div id="hn_16" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_16', 'hn_16')">&#31169;&#36948;&#12399; &#12371;&#12371;&#12395; &#12356;&#12414;&#12377; &#12290;
+<div>
+<span style="color: #996633">watashitachi wa koko ni imasu.
+</span>
+</div>
+</a></div>
+</div></td>
+<td>
+<td><button class="px40" onclick="document.getElementById('18').play()">&#x25BA;</button>
+<audio id="18">
+<source src="https://www.book2.nl/book2/JA/SOUND/0018.mp3" type="audio/mpeg" />
+</audio></td>
+</tr>
+<tr><td>
+<div class="Stil35">
+&#20320;&#20204; &#22312; &#36825;&#37324; &#12290;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_17" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_17', 'hn_17')">&#12354; _ &#12383; _ &#12399; &#12371; _ &#12395; &#12356; _ &#12377; &#12290;
+</a></div><div id="hn_17" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_17', 'hn_17')">&#12354;&#12394;&#12383;&#36948;&#12399; &#12371;&#12371;&#12395; &#12356;&#12414;&#12377; &#12290;
+<div>
+<span style="color: #996633">anatatachi wa koko ni imasu.
+</span>
+</div>
+</a></div>
+</div></td>
+<td>
+<td><button class="px40" onclick="document.getElementById('19').play()">&#x25BA;</button>
+<audio id="19">
+<source src="https://www.book2.nl/book2/JA/SOUND/0019.mp3" type="audio/mpeg" />
+</audio></td>
+</tr><tr><td>
+<div class="Stil35">
+&#20182;&#20204; &#37117; &#22312; &#36825;&#37324; &#12290;
+</div></td><td>
+<div class="Stil45">
+<div id="sn_18" style="display:inline">
+<a style="cursor:pointer" onclick="tt('sn_18', 'hn_18')">&#24444; _ &#12399; &#30342; &#12371; _ &#12395; &#12356; _ &#12377; &#12290;
+</a></div><div id="hn_18" style="display:none">
+<a style="cursor:pointer" onclick="tt('sn_18', 'hn_18')">&#24444;&#12425;&#12399; &#30342; &#12371;&#12371;&#12395; &#12356;&#12414;&#12377; &#12290;
+<div>
+<span style="color: #996633">karera wa mina koko ni imasu.
+</span>
+</div>
+</a></div>
+</div></td><td>
+<td><button class="px40" onclick="document.getElementById('20').play()">&#x25BA;</button>
+<audio id="20">
+<source src="https://www.book2.nl/book2/JA/SOUND/0020.mp3" type="audio/mpeg" />
+</audio></td>
+</tr>
+<tr>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+<td><div class="Stil39">&nbsp;</div></td>
+</tr>
+</table>
+<div>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsive1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9240635761824238"
+     data-ad-slot="7018564889"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div><br/>
+<table class="span5 table-centered">
+ <tr>
+<td>
+<div class="bg-info">
+<a href="ZHJA002.HTM">
+<img src="../../_bilder/zur.gif" alt="previous page"></a>&nbsp;<a href="ZHJA002.HTM">
+<img src="../../_bilder/up.gif" alt="up"> &#30446;&#24405;</a>&nbsp;
+<a href="ZHJA004.HTM">
+<img src="../../_bilder/vor.gif" alt="next page"></a>
+&nbsp;|&nbsp;Free download MP3:&nbsp;
+<a href="https://www.invatalimbi.com/book2/ZH/ZHJA/ZHJA-all.zip">ALL</a>&nbsp;
+<a href="https://www.invatalimbi.com/book2/ZH/ZHJA/ZHJA-010.zip">1-10
+</a> | 
+<a href="ZHJA___.HTM" target="_blank">&#36141;&#20080;&#27492;&#20070;
+</a>&nbsp;|&nbsp;<a href="https://play.google.com/store/apps/details?id=mobi.steps.fiftylanguages" target="_blank">Free Android app</a>&nbsp;|&nbsp;<a href="https://www.goethe-verlag.com/book2/_ios_app/ZHJA.HTM" target="_blank">Free iPhone app</a>
+</div>
+</td>
+</tr>
+</table>
+</div></div>
+<hr style="background:#F87431; height:3px" />
+<table class="span5 table-centered">
+<tr>
+<td>
+<div class="flagcontainer">
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/AR001.HTM" target="_blank"><div class="flag-ar"></div><br/>AR</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/BE001.HTM" target="_blank"><div class="flag-be"></div><br/>BE</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/BG001.HTM" target="_blank"><div class="flag-bg"></div><br/>BG</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/BN001.HTM" target="_blank"><div class="flag-bn"></div><br/>BN</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/BS001.HTM" target="_blank"><div class="flag-bs"></div><br/>BS</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/CA001.HTM" target="_blank"><div class="flag-ca"></div><br/>CA</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/CS001.HTM" target="_blank"><div class="flag-cs"></div><br/>CS</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/DE001.HTM" target="_blank"><div class="flag-de"></div><br/>DE</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/EL001.HTM" target="_blank"><div class="flag-el"></div><br/>EL</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/EM001.HTM" target="_blank"><div class="flag-em"></div><br/>EM</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/EN001.HTM" target="_blank"><div class="flag-en"></div><br/>EN</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/EO001.HTM" target="_blank"><div class="flag-eo"></div><br/>EO</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/ES001.HTM" target="_blank"><div class="flag-es"></div><br/>ES</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/ET001.HTM" target="_blank"><div class="flag-et"></div><br/>ET</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/FA001.HTM" target="_blank"><div class="flag-fa"></div><br/>FA</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/FI001.HTM" target="_blank"><div class="flag-fi"></div><br/>FI</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/FR001.HTM" target="_blank"><div class="flag-fr"></div><br/>FR</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/HE001.HTM" target="_blank"><div class="flag-he"></div><br/>HE</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/HR001.HTM" target="_blank"><div class="flag-hr"></div><br/>HR</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/HU001.HTM" target="_blank"><div class="flag-hu"></div><br/>HU</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/ID001.HTM" target="_blank"><div class="flag-id"></div><br/>ID</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/IT001.HTM" target="_blank"><div class="flag-it"></div><br/>IT</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/JA001.HTM" target="_blank"><div class="flag-ja"></div><br/>JA</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/KA001.HTM" target="_blank"><div class="flag-ka"></div><br/>KA</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/KN001.HTM" target="_blank"><div class="flag-kn"></div><br/>KN</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/KO001.HTM" target="_blank"><div class="flag-ko"></div><br/>KO</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/LT001.HTM" target="_blank"><div class="flag-lt"></div><br/>LT</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/LV001.HTM" target="_blank"><div class="flag-lv"></div><br/>LV</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/MR001.HTM" target="_blank"><div class="flag-mr"></div><br/>MR</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/NL001.HTM" target="_blank"><div class="flag-nl"></div><br/>NL</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/NN001.HTM" target="_blank"><div class="flag-nn"></div><br/>NN</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/PA001.HTM" target="_blank"><div class="flag-pa"></div><br/>PA</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/PL001.HTM" target="_blank"><div class="flag-pl"></div><br/>PL</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/PT001.HTM" target="_blank"><div class="flag-pt"></div><br/>PT</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/PX001.HTM" target="_blank"><div class="flag-px"></div><br/>PX</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/RO001.HTM" target="_blank"><div class="flag-ro"></div><br/>RO</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/RU001.HTM" target="_blank"><div class="flag-ru"></div><br/>RU</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/SK001.HTM" target="_blank"><div class="flag-sk"></div><br/>SK</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/SR001.HTM" target="_blank"><div class="flag-sr"></div><br/>SR</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/SV001.HTM" target="_blank"><div class="flag-sv"></div><br/>SV</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/UK001.HTM" target="_blank"><div class="flag-uk"></div><br/>UK</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/VI001.HTM" target="_blank"><div class="flag-vi"></div><br/>VI</a></div>
+<div class="flag"><a href="https://www.10winds.com/50languages/did_you_know/ZH001.HTM" target="_blank"><div class="flag-zh"></div><br/>ZH</a></div>
+</div>
+</td></tr></table>
+<table class="span5 table-centered">
+<tr>
+<td><div class="Stil35">
+<h2><b>&#21033;&#29992;&#35821;&#35328;&#23545;&#25239;&#38463;&#23572;&#33576;&#28023;&#40664;&#30149;</b>
+</h2>
+&#35201;&#24819;&#31934;&#31070;&#20581;&#24247;&#38271;&#23551;&#65292;&#23601;&#24212;&#35813;&#23398;&#20064;&#35821;&#35328;&#12290;&#35821;&#35328;&#33021;&#21147;&#21487;&#20197;&#20445;&#25252;&#25105;&#20204;&#36828;&#31163;&#32769;&#24180;&#30196;&#21574;&#30151;&#12290;&#35768;&#22810;&#31185;&#23398;&#30740;&#31350;&#35777;&#23454;&#20102;&#36825;&#19968;&#28857;&#12290;&#24180;&#32426;&#22823;&#23567;&#23545;&#35821;&#35328;&#23398;&#20064;&#26412;&#36523;&#24182;&#19981;&#37325;&#35201;&#12290;&#37325;&#35201;&#30340;&#26159;&#22823;&#33041;&#24471;&#21040;&#35268;&#24459;&#24615;&#38203;&#28860;&#12290;&#23398;&#20064;&#35789;&#27719;&#33021;&#28608;&#27963;&#22823;&#33041;&#30382;&#23618;&#30340;&#19981;&#21516;&#21306;&#22495;&#12290;&#36825;&#20123;&#21306;&#22495;&#25484;&#25511;&#30528;&#37325;&#35201;&#30340;&#35748;&#30693;&#36807;&#31243;&#12290;&#22240;&#27492;&#25484;&#25569;&#22810;&#31181;&#35821;&#35328;&#30340;&#20154;&#26356;&#20026;&#32454;&#24515;&#12290;&#20182;&#20204;&#30340;&#27880;&#24847;&#21147;&#20063;&#26356;&#21152;&#38598;&#20013;&#12290;&#20294;&#22810;&#35821;&#35328;&#33021;&#21147;&#36824;&#20855;&#26377;&#20854;&#23427;&#20248;&#21183;&#12290;&#25484;&#25569;&#22810;&#31181;&#35821;&#35328;&#30340;&#20154;&#25317;&#26377;&#26356;&#22909;&#30340;&#20915;&#31574;&#33021;&#21147;&#12290;&#20182;&#20204;&#20570;&#20915;&#23450;&#30340;&#36895;&#24230;&#26356;&#24555;&#12290;&#36825;&#26159;&#22240;&#20026;&#20182;&#20204;&#30340;&#22823;&#33041;&#24050;&#32463;&#23398;&#20250;&#20102;&#22914;&#20309;&#20570;&#20986;&#36873;&#25321;&#12290;&#22823;&#33041;&#24635;&#26159;&#30693;&#36947;&#65292;&#23545;&#24212;&#21516;&#19968;&#20107;&#29289;&#33267;&#23569;&#26377;&#20004;&#31181;&#35789;&#27719;&#12290;&#20854;&#20013;&#27599;&#19968;&#31181;&#35789;&#27719;&#37117;&#26159;&#21487;&#34892;&#24615;&#36873;&#25321;&#20043;&#19968;&#12290;&#22240;&#27492;&#22810;&#35821;&#35328;&#33021;&#21147;&#32773;&#24517;&#39035;&#26102;&#26102;&#20570;&#20986;&#36873;&#25321;&#12290;&#22312;&#23545;&#35768;&#22810;&#20107;&#24773;&#20570;&#36873;&#25321;&#26102;&#65292;&#20182;&#20204;&#30340;&#22823;&#33041;&#24471;&#21040;&#20102;&#38203;&#28860;&#12290;&#36825;&#31181;&#38203;&#28860;&#19981;&#20809;&#21161;&#38271;&#20102;&#35821;&#35328;&#20013;&#26530;&#12290;&#22823;&#33041;&#35832;&#22810;&#21306;&#22495;&#20063;&#21516;&#26679;&#33719;&#30410;&#20110;&#22810;&#35821;&#35328;&#33021;&#21147;&#12290;&#22810;&#35821;&#35328;&#33021;&#21147;&#20063;&#24847;&#21619;&#30528;&#26356;&#20026;&#20248;&#36234;&#30340;&#35748;&#30693;&#25484;&#25511;&#21147;&#12290;&#24403;&#28982;&#65292;&#35821;&#35328;&#33021;&#21147;&#24182;&#19981;&#33021;&#38459;&#27490;&#32769;&#24180;&#30196;&#21574;&#30151;&#30340;&#21457;&#29983;&#12290;&#20294;&#26159;&#22312;&#22810;&#35821;&#35328;&#33021;&#21147;&#32773;&#36523;&#19978;&#65292;&#30149;&#24773;&#30340;&#36827;&#23637;&#20250;&#20943;&#32531;&#35768;&#22810;&#12290;&#20182;&#20204;&#30340;&#22823;&#33041;&#30475;&#36215;&#26469;&#33021;&#26356;&#22909;&#22320;&#25269;&#28040;&#30149;&#30151;&#12290;&#32769;&#24180;&#30196;&#21574;&#30151;&#22312;&#35821;&#35328;&#23398;&#20064;&#32773;&#36523;&#19978;&#30340;&#20307;&#29616;&#26159;&#30456;&#23545;&#36731;&#24494;&#30340;&#12290;&#22256;&#24785;&#21644;&#20581;&#24536;&#31561;&#30151;&#29366;&#19981;&#29978;&#20005;&#37325;&#12290;&#22240;&#27492;&#26080;&#35770;&#26159;&#32769;&#24180;&#20154;&#36824;&#26159;&#24180;&#36731;&#20154;&#37117;&#21516;&#26679;&#20174;&#35821;&#35328;&#23398;&#20064;&#20013;&#21463;&#30410;&#12290;&#32780;&#19988;&#65306;&#25484;&#25569;&#20102;&#19968;&#38376;&#35821;&#35328;&#65292;&#20877;&#23398;&#26032;&#30340;&#20250;&#26356;&#21152;&#23481;&#26131;&#12290;&#22240;&#27492;&#65292;&#25105;&#20204;&#24212;&#35813;&#21521;&#23383;&#20856;&#20280;&#20986;&#21452;&#25163;&#32780;&#19981;&#26159;&#21521;&#33647;&#32592;&#23376;&#65281;
+</div></td></tr></table>
+<p>&nbsp;</p>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsive1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9240635761824238"
+     data-ad-slot="7018564889"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<table class="span5 table-centered"><tr><td><div><span class="Stil38">
+<br />
+Downloads are FREE for private use, public schools and for non-commercial purposes only!<br />  <a href="https://www.goethe-verlag.com/book2/licence.htm"><b>LICENCE</b></a> AGREEMENT. Please report any mistakes or incorrect translations 
+<a href="mailto:book2@goethe-verlag.com?subject=Correction%20https://www.goethe-verlag.com/book2/ZH/ZHJA/ZHJA003.HTM&amp;body=Please%20correct%20the%20following%20on%20your%20web%20page%0D%0Ahttps://www.goethe-verlag.com/book2/ZH/ZHJA/ZHJA003.HTM%20:%0D%0A%0D%0A%0D%0A%0D%0AThank%20you!%20"><b>here.</b></a>
+<br /><a href="https://www.goethe-verlag.com/impressum.htm" target="_blank"><b>Imprint - Impressum</b></a>&nbsp;&nbsp;&copy; Copyright 2007 - 2018 Goethe Verlag Starnberg and licensors. All rights reserved.
+<a href="https://www.goethe-verlag.com/contactform.htm" onClick="FO(this.href); return false"><br><b>Contact</b></a> 
+<b>book2 &#20013;&#25991; - &#26085;&#35821; &#19987;&#20026;&#21021;&#23398;&#32773;&#31934;&#24515;&#25171;&#36896;</b>
+</span>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div></td></tr>
+</table>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://www.goethe-verlag.com/bootstrap/js/bootstrap.min.js"></script>
+<!-- AddThis Smart Layers BEGIN -->
+<!-- Go to https://www.addthis.com/get/smart-layers to customize -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=goetheverlag"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'transparent',
+    'share' : {
+      'position' : 'left',
+      'numPreferredServices' : 5
+    },  
+  });
+</script>
+<!-- AddThis Smart Layers END -->
